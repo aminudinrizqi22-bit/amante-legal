@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amante: a personal AI assistant</title>
+<meta name="description" content="Amante is a personal AI assistant built for one person's own use: memory, tasks and goals, Google Calendar and Gmail.">
+<style>
+  :root { color-scheme: dark; --bg:#1d1727; --text:#ece3d3; --muted:#a89fb5; --accent:#e0a84a; --rule:#3a3050; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:18px/1.7 Charter, "Iowan Old Style", Georgia, serif; }
+  main { max-width:40rem; margin:0 auto; padding:4rem 1.25rem 3rem; }
+  h1 { font-size:2.6rem; line-height:1.15; margin:0 0 .4rem; letter-spacing:-.01em; }
+  h2 { font-size:1.25rem; margin:2.4rem 0 .5rem; }
+  p, li { margin:.6rem 0; }
+  ul { padding-left:1.2rem; }
+  .lede { color:var(--muted); font-size:1.15rem; margin-bottom:2rem; }
+  a { color:var(--accent); text-underline-offset:3px; }
+  a:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid var(--rule); color:var(--muted); font-size:.95rem; }
+  footer a { margin-right:1.2rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Amante</h1>
+  <p class="lede">A personal AI assistant that remembers what matters to one person and helps them keep track of their own day.</p>
+
+  <h2>What it is</h2>
+  <p>Amante is a private project, built and used by its developer for personal use. It is not a public service and is not offered to other people.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Keeps notes and memories from conversations with its owner.</li>
+    <li>Tracks the owner's tasks and goals and sends reminders.</li>
+    <li>Reads the owner's Google Calendar events and can add or change them when asked.</li>
+    <li>Searches the owner's Gmail inbox, read-only, to answer questions such as "did the invoice arrive?"</li>
+  </ul>
+
+  <h2>Why it asks for Google access</h2>
+  <p>Calendar and Gmail access is requested only so the owner can ask Amante about their own calendar and email. Amante asks for two permissions: view and edit calendar events, and read Gmail messages. It cannot send, delete or change email. The owner can remove this access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a>
+    <a href="terms.html">Terms of service</a>
+  </footer>
+</main>
+</body>
+</html>
